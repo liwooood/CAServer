@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259f5912-6b55-4aa0-8c54-d85fd695b233" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/DemoService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/DemoServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_caucho_hessian_4_0_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/Provider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/provider.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/VerifySign.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CAServer.iml" afterPath="$PROJECT_DIR$/CAServer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,6 +18,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -81,156 +76,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="912">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/DemoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="provider.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/provider.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="23" selection-start="967" selection-end="967" vertical-scroll-proportion="-4.84" vertical-offset="259" max-vertical-offset="779">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Provider.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/Provider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="400" selection-end="400" vertical-scroll-proportion="0.5135135" vertical-offset="0" max-vertical-offset="437">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CertApi/src/main/java/com/cssweb/pki/caapi/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="418">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../CertApi/src/main/java/com/cssweb/pki/caapi/DemoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MAVEN/CAServer:CAServer:1.0-SNAPSHOT" pinned="false" current="false" current-in-tab="false">
-        <entry file="uml://MAVEN/CAServer:CAServer:1.0-SNAPSHOT">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>MAVEN</ID>
-              <OriginalElement>CAServer:CAServer:1.0-SNAPSHOT</OriginalElement>
-              <nodes>
-                <node x="-56.0" y="-14.5">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-                <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE</node>
-                <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE</node>
-                <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE</node>
-                <node x="-53.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE</node>
-                <node x="0.0" y="0.0">CAServer:CAServer:1.0-SNAPSHOT</node>
-                <node x="-38.0" y="-14.5">com.caucho:hessian:jar:4.0.7</node>
-                <node x="-68.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE</node>
-                <node x="-59.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE</node>
-                <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE</node>
-                <node x="-53.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE</node>
-                <node x="-47.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE</node>
-                <node x="-32.0" y="-14.5">junit:junit:jar:4.11</node>
-                <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-                <node x="-62.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="CAServer:CAServer:1.0-SNAPSHOT" target="com.caucho:hessian:jar:4.0.7">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE/commons-logging:commons-logging:jar:1.1.3">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="CAServer:CAServer:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:3.2.8.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/aopalliance:aopalliance:jar:1.0">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="CAServer:CAServer:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-33.0" y="-50.0" />
-              <SelectedNodes>
-                <node>CAServer:CAServer:1.0-SNAPSHOT</node>
-              </SelectedNodes>
-              <Categories />
-              <VISIBILITY>All</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CAServer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/CAServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="247">
+            <state line="7" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
               <folding />
             </state>
           </provider>
@@ -240,6 +89,44 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/DemoService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="17" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/DemoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="1" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Provider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/Provider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="1" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerifySign.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/VerifySign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="42" selection-start="812" selection-end="812" vertical-scroll-proportion="0.5331126" vertical-offset="229" max-vertical-offset="2660">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="34" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1121">
               <folding />
             </state>
           </provider>
@@ -261,8 +148,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/consumer.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/provider.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/Provider.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/VerifySign.java" />
       </list>
     </option>
   </component>
@@ -353,6 +241,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -443,8 +333,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -744,48 +632,54 @@
       <updated>1390702944645</updated>
       <workItem from="1390702945967" duration="1766000" />
       <workItem from="1393331859268" duration="3077000" />
-      <workItem from="1393339155746" duration="712000" />
+      <workItem from="1393339155746" duration="1408000" />
+      <workItem from="1393564734163" duration="368000" />
+      <workItem from="1393565117161" duration="473000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1390703871044</created>
       <updated>1390703871044</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1393339879369</created>
+      <updated>1393339879369</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5555000" />
+    <option name="totallyTimeSpent" value="7092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1552" height="824" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299866" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24966533" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24966533" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2777778" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2811245" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24966533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46084338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46084338" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -814,6 +708,44 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="26" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="47" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="779">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CertApi/src/main/java/com/cssweb/pki/caapi/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="1" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CertApi/src/main/java/com/cssweb/pki/caapi/DemoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="20" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="912">
           <folding />
         </state>
@@ -835,16 +767,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../CertApi/src/main/java/com/cssweb/pki/caapi/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="418">
-          <folding />
-        </state>
+        <state line="16" column="1" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="418" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../CertApi/src/main/java/com/cssweb/pki/caapi/DemoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266">
-          <folding />
-        </state>
+        <state line="8" column="1" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="266" />
       </provider>
     </entry>
     <entry file="uml://MAVEN/CAServer:CAServer:1.0-SNAPSHOT">
@@ -871,11 +799,23 @@
           </nodes>
           <notes />
           <edges>
+            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
             <edge source="CAServer:CAServer:1.0-SNAPSHOT" target="com.caucho:hessian:jar:4.0.7">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/aopalliance:aopalliance:jar:1.0">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -887,7 +827,19 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
+            <edge source="CAServer:CAServer:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
             <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -903,36 +855,13 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="CAServer:CAServer:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
           </edges>
           <settings layout="Hierarchic Group" zoom="1.0" x="-33.0" y="-50.0" />
           <SelectedNodes>
             <node>CAServer:CAServer:1.0-SNAPSHOT</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
@@ -1007,65 +936,45 @@
           <ID>MAVEN</ID>
           <OriginalElement>CAServer:CAServer:1.0-SNAPSHOT</OriginalElement>
           <nodes>
+            <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-aop:jar:3.2.5.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="-62.0" y="-14.5">org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-core:jar:3.2.5.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
             <node x="-56.0" y="-14.5">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE</node>
-            <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE</node>
-            <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE</node>
-            <node x="-53.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE</node>
+            <node x="-68.0" y="-14.5">org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-expression:jar:3.2.5.RELEASE</node>
+            <node x="112.0" y="0.0">org.springframework:spring-context:jar:3.2.5.RELEASE</node>
+            <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-expression:jar:3.2.5.RELEASE/org.springframework:spring-core:jar:3.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-aop:jar:3.2.5.RELEASE</node>
+            <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-aop:jar:3.2.5.RELEASE/org.springframework:spring-core:jar:3.2.5.RELEASE</node>
+            <node x="-53.0" y="-14.5">org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-aop:jar:3.2.5.RELEASE/org.springframework:spring-beans:jar:3.2.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-beans:jar:3.2.5.RELEASE/org.springframework:spring-core:jar:3.2.5.RELEASE</node>
             <node x="0.0" y="0.0">CAServer:CAServer:1.0-SNAPSHOT</node>
             <node x="-38.0" y="-14.5">com.caucho:hessian:jar:4.0.7</node>
-            <node x="-68.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE</node>
-            <node x="-59.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE</node>
-            <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE</node>
-            <node x="-53.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE</node>
-            <node x="-47.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE</node>
+            <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-core:jar:3.2.5.RELEASE</node>
             <node x="-32.0" y="-14.5">junit:junit:jar:4.11</node>
-            <node x="-50.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="-62.0" y="-14.5">org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="-53.0" y="-14.5">org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-beans:jar:3.2.5.RELEASE</node>
           </nodes>
           <notes />
           <edges>
+            <edge source="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-aop:jar:3.2.5.RELEASE" target="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-aop:jar:3.2.5.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
             <edge source="CAServer:CAServer:1.0-SNAPSHOT" target="com.caucho:hessian:jar:4.0.7">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
+            <edge source="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-core:jar:3.2.5.RELEASE" target="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-core:jar:3.2.5.RELEASE/commons-logging:commons-logging:jar:1.1.1">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
+            <edge source="org.springframework:spring-context:jar:3.2.5.RELEASE" target="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-expression:jar:3.2.5.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE/commons-logging:commons-logging:jar:1.1.3">
+            <edge source="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-beans:jar:3.2.5.RELEASE" target="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-beans:jar:3.2.5.RELEASE/org.springframework:spring-core:jar:3.2.5.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="CAServer:CAServer:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:3.2.8.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-expression:jar:3.2.8.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-beans:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-aop:jar:3.2.8.RELEASE/aopalliance:aopalliance:jar:1.0">
+            <edge source="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-aop:jar:3.2.5.RELEASE" target="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-aop:jar:3.2.5.RELEASE/org.springframework:spring-core:jar:3.2.5.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
@@ -1073,62 +982,65 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
+            <edge source="CAServer:CAServer:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:3.2.5.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-expression:jar:3.2.5.RELEASE" target="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-expression:jar:3.2.5.RELEASE/org.springframework:spring-core:jar:3.2.5.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
             <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-context:jar:3.2.8.RELEASE" target="org.springframework:spring-context:jar:3.2.8.RELEASE/org.springframework:spring-core:jar:3.2.8.RELEASE">
+            <edge source="org.springframework:spring-context:jar:3.2.5.RELEASE" target="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-core:jar:3.2.5.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-aop:jar:3.2.5.RELEASE" target="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-aop:jar:3.2.5.RELEASE/org.springframework:spring-beans:jar:3.2.5.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.5.RELEASE" target="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-beans:jar:3.2.5.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:3.2.5.RELEASE" target="org.springframework:spring-context:jar:3.2.5.RELEASE/org.springframework:spring-aop:jar:3.2.5.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-33.0" y="-50.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
           <SelectedNodes>
             <node>CAServer:CAServer:1.0-SNAPSHOT</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../CertApi/src/main/java/com/cssweb/pki/caapi/DemoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
-          <folding />
-        </state>
+        <state line="8" column="1" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../CertApi/src/main/java/com/cssweb/pki/caapi/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+        <state line="16" column="1" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="47" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="779">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/CAServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="23" selection-start="967" selection-end="967" vertical-scroll-proportion="-4.84" vertical-offset="259" max-vertical-offset="779">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+        <state line="7" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
           <folding />
         </state>
       </provider>
@@ -1140,10 +1052,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/Provider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="400" selection-end="400" vertical-scroll-proportion="0.5135135" vertical-offset="0" max-vertical-offset="437">
+        <state line="14" column="1" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="34" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1121">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cssweb/pki.caserver/VerifySign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="42" selection-start="812" selection-end="812" vertical-scroll-proportion="0.5331126" vertical-offset="229" max-vertical-offset="2660">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
